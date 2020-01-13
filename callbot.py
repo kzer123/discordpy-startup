@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import discord
+import os
 from datetime import datetime, timedelta
 
 token = os.environ['DISCORD_BOT_TOKEN']
