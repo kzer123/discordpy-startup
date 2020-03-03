@@ -10,7 +10,7 @@ client = discord.Client()
 
 @client.event
 async def on_voice_state_update(member, before, after): 
-    if member.guild.id == 665898689818263585 and (before.channel != after.channel):
+    if member.guild.id == 665898689302233129 and (before.channel != after.channel):
         now = datetime.utcnow() + timedelta(hours=9)
         alert_channel = client.get_channel(684472113150689281)
         if before.channel is None: 
